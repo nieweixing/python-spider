@@ -7,7 +7,7 @@ import requests, json, re, sys, os, urllib, argparse, time
 from urllib.request import urlretrieve
 from contextlib import closing
 from urllib import parse
-import xml2ass
+from bilibili import xml2ass
 
 class BiliBili:
 	def __init__(self, dirname, keyword):
